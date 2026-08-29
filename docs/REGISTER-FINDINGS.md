@@ -70,3 +70,9 @@ Verified end-to-end many times: battery mode → write → UPS off after the del
 
 These findings were reported to the NUT project — see the linked issue in
 README.md.
+
+---
+
+*AI-assisted notice: the reverse engineering, probing scripts and this document
+were developed with the assistance of an AI coding agent; every register claim
+was validated on real hardware and reviewed by a human before publishing.*

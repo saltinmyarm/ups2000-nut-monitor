@@ -82,3 +82,9 @@ Huawei UPS2000-A (USB) ── Exar XR21V1410 bridge (internal RS485)
 - `.bat` files must be GBK + CRLF on zh-CN Windows.
 - Windows toast notifications with an unregistered AppUserModelID are silently
   dropped — use a plain WinForms popup for guaranteed visibility.
+
+---
+
+*AI-assisted notice: this document was written with the assistance of an AI
+coding agent; the described behavior was validated on real hardware and
+reviewed by a human before publishing.*

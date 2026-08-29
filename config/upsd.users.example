@@ -1,0 +1,12 @@
+# upsd.users.example - copy to your NUT etc/ dir as upsd.users and edit.
+# IMPORTANT: use strong random passwords on your own machine. The monitor needs
+# the "admin" account (instcmds = ALL) to run shutdown commands.
+
+[upsmon]
+	password = CHANGE_ME_MONITOR_PASSWORD
+	upsmon master
+
+[admin]
+	password = CHANGE_ME_ADMIN_PASSWORD
+	actions = SET
+	instcmds = ALL

@@ -1,0 +1,8 @@
+# upsmon.conf.example - copy to your NUT etc/ dir as upsmon.conf and edit.
+# POWERDOWNFLAG uses forward slashes on Windows.
+
+MONITOR ups2000@localhost 1 upsmon CHANGE_ME_MONITOR_PASSWORD master
+
+SHUTDOWNCMD "C:\Windows\System32\shutdown.exe /s /f /t 0"
+
+POWERDOWNFLAG C:/nut/killpower

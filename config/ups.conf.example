@@ -1,0 +1,13 @@
+# ups.conf.example - copy to your NUT etc/ dir as ups.conf and edit
+# Huawei UPS2000-A (1kVA-3kVA) via USB (Exar XR21V1410) on a COM port.
+# Modbus RTU 9600 8N1, slave 1.
+
+[ups2000]
+	driver = huawei-ups2000
+	port = COM3                  # your COM port
+	# offdelay: only used by driver shutdown.return, which this firmware
+	# ignores (see docs/REGISTER-FINDINGS.md). The real power-off path is the
+	# monitor's direct 0x06 write to register 11049 (UPS_POWEROFF_DELAY in
+	# scripts/ups-monitor.py).
+	offdelay = 60
+	ondelay = 10

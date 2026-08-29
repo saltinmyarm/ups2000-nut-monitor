@@ -1,0 +1,19 @@
+# Logs, state files and local secrets - never commit these
+logs/
+killpower
+*.log
+last-outage.txt
+outage-*.txt
+
+# Local config with real passwords (you keep these private; use the .example files)
+config/upsd.users
+config/upsmon.conf
+config/ups.conf
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+Desktop.ini

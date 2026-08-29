@@ -82,3 +82,14 @@ docs/      architecture + register findings
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## AI-assisted notice / AI 创作声明
+
+This project — the monitor code, scripts, documentation, debugging, and the
+register-level reverse engineering — was developed with the assistance of an
+AI coding agent. Every technical claim was validated on real hardware
+(power-cut drills, direct Modbus probing) and reviewed by a human before
+publishing.
+
+本项目（监控代码、脚本、文档、调试与寄存器逆向分析）由 AI 辅助开发完成；
+所有技术结论均经过真机实测验证（断电演练、直接 Modbus 探测），发布前经人工审核。
